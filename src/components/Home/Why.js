@@ -1,20 +1,18 @@
-import React from "react";
-import "./why.css";
 import {
   CCard,
   CCardBody,
-  CCardImage,
   CCardText,
-  CCardTitle,
   CCol,
   CContainer,
   CImage,
-  CRow,
+  CRow
 } from "@coreui/react";
-import ImgPraktis from "../../assets/icons/praktis.svg";
-import ImgPortabel from "../../assets/icons/portable.svg";
+import React from "react";
 import ImgFlexibel from "../../assets/icons/fleksible.svg";
 import ImgKompetibilitas from "../../assets/icons/kompatibilitas.svg";
+import ImgPortabel from "../../assets/icons/portable.svg";
+import ImgPraktis from "../../assets/icons/praktis.svg";
+import "./why.css";
 
 const Why = () => {
   return (
