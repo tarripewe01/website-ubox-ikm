@@ -78,6 +78,10 @@
   .card__text {
     font-size: 0.875rem;
   }
+
+  .title {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
