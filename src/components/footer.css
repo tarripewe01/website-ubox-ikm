@@ -37,8 +37,14 @@
   background-color: #f89e20;
 }
 
+.help_center-link{
+text-decoration: none;
+}
+
+
 .cs_footer {
   width: 20%;
+  margin-left: 5px;
 }
 
 .text_footer {
@@ -47,6 +53,8 @@
   font-size: 0.875rem;
   margin-left: 3px;
   margin: auto;
+  text-decoration: none;
+  margin-left: 5px;
 }
 
 .help_center .text_footer:hover {
