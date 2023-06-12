@@ -3,6 +3,7 @@ import Banner from "../../components/Home/Banner";
 import Why from "../../components/Home/Why";
 import Info from "../../components/Home/Info";
 import Cara from "../../components/Home/Cara";
+import Action from "../../components/Home/Action";
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
       <Banner />
       <Why />
       <Info />
-      <Cara />
+      {/* <Cara /> */}
+      <Action />
     </>
   );
 };

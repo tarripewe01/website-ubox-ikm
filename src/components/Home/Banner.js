@@ -1,8 +1,8 @@
 import { CCol, CContainer, CImage, CRow } from "@coreui/react";
 import React from "react";
 import ImgAppStore from "../../assets/images/appstore.png";
-import BannerImage from "../../assets/images/banner2.png";
 import ImgGooglePlay from "../../assets/images/googleplay.png";
+import BannerImage from "../../assets/images/banner2.png";
 import './banner.css';
 
 const Banner = () => {

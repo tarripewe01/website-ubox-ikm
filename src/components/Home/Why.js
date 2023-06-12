@@ -18,7 +18,7 @@ const Why = () => {
   return (
     <CContainer className="container__why">
       <div className="contain__title">
-        <p className="title">Mengapa Ubox ?</p>
+        <p className="title" style={{textAlign:"center"}}>Mengapa Ubox ?</p>
       </div>
       <CRow className="contain__card">
         <CCol xs="6" md="3">

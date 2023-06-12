@@ -25,63 +25,64 @@
   border-radius: 20px;
 }
 
-.title{
-    font-size: 1.25rem;
+.title {
+  font-size: 1.25rem;
+  text-align: center;
 }
 
-.contain__card{
-    padding-top: 20px;
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
-    margin: auto;
-    
+.contain__card {
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  margin: auto;
 }
 
-.card{
-    margin: 10px auto;
-    height: 9.375rem;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
-    -webkit-box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
-    -moz-box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
+.card {
+  margin: 10px auto;
+  height: 9.375rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
+  -webkit-box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
+  -moz-box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
+  text-align: center;
+  place-items: center;
+  align-self: center;
+}
+
+.card__body {
+  height: 150px;
+}
+
+.card__image {
+  width: 3.125rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  align-self: center;
+}
+
+.card__text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 0.688rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .contain__title {
+    width: 50%;
+  }
+
+  .card__text {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .title {
+    font-size: 1.6rem;
     text-align: center;
-    place-items: center;
-    align-self: center;
-}
-
-.card__body{
-    height: 150px;
-}
-
-.card__image{
-    width: 3.125rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-    align-self: center;
-}
-
-.card__text{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 0.688rem;
-    font-weight: 600;
-}
-
-@media screen and (min-width: 768px){
-    .contain__title {
-        width: 50%;
-      }
-
-      .card__text{
-        font-size: 0.875rem;
-    }
-}
-
-@media screen and (min-width: 1024px){
-    .title{
-        font-size: 1.6rem;
-    }
+  }
 }

@@ -1,14 +1,18 @@
 .container__cara {
   padding: 30px 0;
   margin: auto;
-  color: #5F7A82;
+  color: #5f7a82;
 }
 
 .contain__title-cara {
   margin: auto;
   text-align: center;
-  background: rgb(248,158,32);
-  background: linear-gradient(121deg, rgba(248,158,32,1) 0%, rgba(239,140,22,1) 76%);
+  background: rgb(248, 158, 32);
+  background: linear-gradient(
+    121deg,
+    rgba(248, 158, 32, 1) 0%,
+    rgba(239, 140, 22, 1) 76%
+  );
   color: white;
   box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
   -webkit-box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
@@ -25,14 +29,36 @@
   font-size: 1.25rem;
 }
 
-.contain__cara{
-    text-align: center;
-    margin-top: 30px;
+.contain__cara {
+  text-align: center;
+  margin-top: 0.625rem;
 }
 
-@media screen and (min-width: 768px){
-    .contain__title-cara {
-        width: 50%;
-      }
+.title__sewa {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
+.card__sewa {
+  display: grid;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card__sewa-list {
+  box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
+  -webkit-box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
+  -moz-box-shadow: 10px 10px 5px -4px rgba(35, 93, 171, 0.5);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .contain__title-cara {
+    width: 50%;
+  }
+}

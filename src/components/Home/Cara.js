@@ -1,6 +1,7 @@
-import { CCol, CContainer, CRow } from "@coreui/react";
+import { CCol, CContainer, CImage, CRow } from "@coreui/react";
 import React from "react";
 import "./cara.css";
+import Download from "../../assets/icons/sewa1.svg";
 
 const Cara = () => {
   return (
@@ -9,19 +10,22 @@ const Cara = () => {
         <p className="title-cara">Cara menggunakan Ubox</p>
       </div>
       <CRow className="contain__cara">
-        <CCol sm="auto">
-          <p>Sewa Powerbank</p>
-          <CRow>
-            <CCol></CCol>
-            <CCol className="align-self-center text-end">1</CCol>
-            <CCol style={{textAlign:'start'}}>
-              <p>2</p>
-              <p>2</p>
+        <CCol sm="auto" style={{ marginTop: 30 }}>
+          <p className="title__sewa">Sewa Powerbank</p>
+          <CRow className="card__sewa">
+            <CCol xs='12' className="card__sewa-list">
+              <CRow >
+                <CCol>Icon</CCol>
+                <CCol>TITLE</CCol>
+              </CRow>
             </CCol>
-            <CCol></CCol>
+            <CCol>1</CCol>
+            <CCol>1</CCol>
+            <CCol>1</CCol>
           </CRow>
+        
         </CCol>
-        <CCol sm="auto">Pengembalian Powerbank</CCol>
+        {/* <CCol sm="auto">Pengembalian Powerbank</CCol> */}
       </CRow>
     </CContainer>
   );
