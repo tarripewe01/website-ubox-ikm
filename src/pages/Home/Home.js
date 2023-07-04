@@ -4,6 +4,7 @@ import Why from "../../components/Home/Why";
 import Info from "../../components/Home/Info";
 import Cara from "../../components/Home/Cara";
 import Action from "../../components/Home/Action";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Info />
       {/* <Cara /> */}
       <Action />
+      <Footer />
     </>
   );
 };

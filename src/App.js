@@ -8,11 +8,12 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
+        {/* <Home /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );
